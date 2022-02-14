@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>タイピングゲーム</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="takumi.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <label id="typing_time_l">
+            入力時間：
+            <input type="number" id="typing_time_i">
+        </label>
+        <input type="button" id="start_button" value="start" onclick="ready()" style="text-align: center">
+        <div id="count"></div>
+        <h1>
+            <div id="japanese"></div>
+        </h1>
+        <h2>
+            <div id="word"></div>
+        </h2>
+        <div id="scoredis"></div>
+    </div>
+    <script type="text/javascript" src="jyo.js"></script>
+
+</body>
+
+</html>
